@@ -1,0 +1,33 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require swiper/css/swiper.min
+ *= require hamburger/hamburgers.min
+ *= require animate/animate.min
+ *= require fancybox/css/jquery.fancybox.min
+ *= require font-awesome/css/font-awesome.min
+ *= require ionicons/css/ionicons.min
+ *= require line-icons/line-icons
+ *= require line-icons-pro/line-icons-pro
+ *= require linea/arrows/linea-icons
+ *= require linea/basic/linea-icons
+ *= require linea/ecommerce/linea-icons
+ *= require linea/software/linea-icons
+ *= require fonts/pe-icon-7-stroke/css/pe-icon-7-stroke
+ *= require css/settings
+ *= require css/layers
+ *= require css/navigation
+ *= require css/bootstrap.min
+ *= require boomerang/boomerang.min
+ */
