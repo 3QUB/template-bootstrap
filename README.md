@@ -1,102 +1,52 @@
-# Day 28
+# Day 4 / Week 7
 
 ## Présentation du programme:
 Le programme a été fait par Quentin, Abdel, Alexandra & Selma. 
 
-#### Lien Heroku : https://obscure-reaches-46415.herokuapp.com/
+#### Liens Heroku des 3 landing pages :
+##### https://team-atlantide-thp.herokuapp.com/1. 
+##### https://team-atlantide-thp.herokuapp.com/2 
+##### https://team-atlantide-thp.herokuapp.com/3
 
 ## Mission
 
-Faire une landing page du site https://www.thehackingproject.org , et promouvoir ce dernier.
+### Pimper le projet des LPs pour le mettre en production
+
+Tu vas améliorer le projet des landing pages et constater que tu commences à avoir un niveau plus que convenable en Rails !
+
+Ce projet sera la version en production du projet des landing pages, et sera une étape importante pour ton apprentissage à Rails : à partir de là, il te manquera une petite semaine de JavaScript pour dynamiser tes pages, et tu sauras refaire sans grand soucis un Airbnb. En effet, tu sais créer des modèles, jouer avec eux en base, leur appliquer des services, mettre en production une application, et même proposer des options de pro indispensables pour toute application qui se respecte (template pas dégueu, emailer).
 
 
 ## Les étapes 
 
 
-#### La landing page ✅
+### 1. Introduction et Mise en forme ✅
 
-##### Pour créer notre landing page, nous avons repris une template bootstrap en suivant les étapes suivantes:
+* Intégration d'une template WrapBootstrap 
+* Création de 3 LPs (L'une ciblée sur une ville  1.Bordeaux, l'une sur un domaine particlier 2. Startups, et l'une 3.visant les étudiants)
+* Service mailer & Newsletter 
+* Heroku scheduler 
 
-Dans le fichier Gemfile:
+### 2. Les emails ✅
 
-```
-gem 'frontend-generators'
-```
+### 3. Opérations markting ✅
 
-Dans le fichier Rakefile:
-
-```    
-require "frontend_generators"
-load 'tasks/add_assets.rake'
-```
-
-Pour ajouter le fichier Bootstrap à l'app Rails, il faut entrer dans la commande
-
-``` 
-bundle exec rake add_assets:bootstrap
-```
-
-Dans  le fichier application.css:
-
-```
-*= require bootstrap
-```
-
-Dans  le fichier  application.js:
-
-```
-//= require bootstrap 
- ```
+* Bot Twitter qui envoie des tweets, avec 3 search_terms spécifiques aux cibles des 3 LPs
 
 
-##### Installation du Bootstrap creative 
-
-Dans le terminal
-
-``` 
-bundle exec rake add_assets:creative
-```
-
-Dans le fichier routes.rb:
-
-```
-root 'creatives#index'
-```
-
-Dans le fichier config/initializers/assets.rb
-
-```
-Rails.application.config.assets.precompile += %w( creative/manifest.jscreative/manifest.css )
-````
+* Bot Messenger avec page Facebook et message d'accueil avec un lien qui redirige vers la LP qui ciblent les étudiants. 
 
 
-- Theme intégré : Bootstrap creative
+### 4. Le Tracking ✅
 
-#### Le call to action :white_check_mark:
-
-- Inscription à la newsletter
-
-#### L'acquisition :white_check_mark:
-
-#### Analyse des metrics :white_check_mark:
-
+Lps branchées à l'outil d'analitycs Amplitude, le script est sous forme de partial dans app/views/layouts
 Les metrics à suivre sont : 
 - Nombre de visiteurs
 - Nombre d'inscrits à la newsletter
 - Taux d'ouverture sur l'email
 - Taux de clic sur le bouton de l'email
 - Taux de personnes ayant payés la caution
-
-#### Le rendu :white_check_mark:
-
-https://obscure-reaches-46415.herokuapp.com/
-
-#### Les outils :white_check_mark:
-
-- Mailchimp pour l'inscription à la newsletter : 
-List THP avec un email qui part dès qu'une personne inscrit son email
-- <a href="https://github.com/alexandradlg/bot_twitter">Bot twitter :</a></br>
-Récupération de comptes utilisateurs ayant un intéret pour des sujets tels que la tech, l'éduction, les étudiants, etc. Follow de ces utilisateurs et envoi d'un tweet avec le lien de la landing page
+s
 
 
 ## Installation
