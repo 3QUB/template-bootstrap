@@ -40,7 +40,8 @@ Ce projet sera la version en production du projet des landing pages, et sera une
 * Bot Twitter qui envoie des tweets, avec 3 search_terms spécifiques aux cibles des 3 LPs
 
 
-* Bot Messenger avec page Facebook et message d'accueil avec un lien qui redirige vers la LP qui ciblent les étudiants. 
+* Bot Messenger avec page Facebook https://www.facebook.com/thpatlantide/
+ et message d'accueil avec un lien qui redirige vers la LP qui cible les étudiants. 
 
 
 ### 4. Le Tracking ✅
