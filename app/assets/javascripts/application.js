@@ -10,11 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
 //= require jquery.min
-//= require_tree .
 //= require popper.min
 //= require js/bootstrap.min
 //= require slidebar/slidebar
@@ -49,3 +49,4 @@
 //= require wow/wow.min
 //= require bootstrap-notify/bootstrap-growl.min
 //= require scrollpos-styler/scrollpos-styler
+//= require_tree .
