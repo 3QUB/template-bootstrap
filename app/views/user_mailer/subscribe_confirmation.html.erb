@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+          <h1>Thanks for your subscription</h1>
+  </head>
+  <body>
+        <p>To confirm your subscription, please <%= link_to  "confirm your subscription", subscribe_nl_url(@user.id, @user.unsubscribe_token) %>.</p>
+        <a href="http://thehackingproject.org/">Get Started!</a></body></br>
+  </body>
+</html>
+

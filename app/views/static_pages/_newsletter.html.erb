@@ -1,0 +1,21 @@
+<span class="mask mask-base-1--style-1"></span>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-8 text-center">
+            <aside id="cta">
+                <div class="col-md-6 container text-center">
+                    <div class="call-to-action">
+                        <form method='post' action='/users/subscribe' >
+                            <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+                            <div id="form-group"></div>
+                            <h2 class="section-heading"style="color:white">Get started now</h2>
+                            <label for='email'></label></br>
+                            <input type="email" value="" name="email" class="form-control" placeholder="Your email here" required ></br>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" class="btn btn-default btn-xl wow tada"></div>
+                        </form>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</div>
