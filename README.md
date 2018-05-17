@@ -4,7 +4,7 @@
 Le programme a été fait par Quentin, Abdel, Alexandra & Selma. 
 
 #### Liens Heroku des 3 landing pages :
-##### https://team-atlantide-thp.herokuapp.com/1. 
+##### https://team-atlantide-thp.herokuapp.com/1
 ##### https://team-atlantide-thp.herokuapp.com/2 
 ##### https://team-atlantide-thp.herokuapp.com/3
 
@@ -29,6 +29,12 @@ Ce projet sera la version en production du projet des landing pages, et sera une
 
 ### 2. Les emails ✅
 
+* Utilisation de mailer avec un model/controller User/s
+* Message demandant de checker sa boîte de réception après avoir entré son email 
+* Email envoyé avec un lien pour confirmer son inscrption à la newsletter 
+* Second e-mail envoyé toute les semaines, avec un messsage d'accueil et un lien vers https://www.thehackingproject.org/ 
+* Possibilité de se désabonner de la newletter 
+
 ### 3. Opérations markting ✅
 
 * Bot Twitter qui envoie des tweets, avec 3 search_terms spécifiques aux cibles des 3 LPs
@@ -46,7 +52,6 @@ Les metrics à suivre sont :
 - Taux d'ouverture sur l'email
 - Taux de clic sur le bouton de l'email
 - Taux de personnes ayant payés la caution
-s
 
 
 ## Installation
