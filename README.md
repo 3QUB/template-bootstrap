@@ -1,9 +1,12 @@
-# Day 28
+# Day 4 / Week 7
 
 ## Présentation du programme:
 Le programme a été fait par Quentin, Abdel, Alexandra & Selma. 
 
-#### Liens Heroku des 3 landing pages : https://team-atlantide-thp.herokuapp.com/1. - https://team-atlantide-thp.herokuapp.com/2 - https://team-atlantide-thp.herokuapp.com/3
+#### Liens Heroku des 3 landing pages :
+##### https://team-atlantide-thp.herokuapp.com/1. 
+##### https://team-atlantide-thp.herokuapp.com/2 
+##### https://team-atlantide-thp.herokuapp.com/3
 
 ## Mission
 
