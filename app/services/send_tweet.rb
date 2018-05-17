@@ -1,7 +1,5 @@
 
 require 'twitter'
-require 'dotenv'
-Dotenv.load
 
 class SendTweet
 
@@ -22,7 +20,6 @@ class SendTweet
 	def log_in_to_twitter
 		@client = Twitter::REST::Client.new do |config|
 			
-<<<<<<< HEAD
 			config.consumer_key = ENV['CONSUMER_KEY']
 
 			config.consumer_secret = ENV['CONSUMER_SECRET']
@@ -30,15 +27,6 @@ class SendTweet
 			config.access_token = ENV['ACCESS_TOKEN']
 
 			config.access_token_secret = ENV['ACCESS_TOKEN_SECRET']
-=======
-			config.consumer_key = ""
-
-			config.consumer_secret = ""
-
-			config.access_token = ""
-
-			config.access_token_secret = "" 
->>>>>>> 01d673c7549b80b13c9ec509fa4d4498676d18f6
 
 		end
 	end
