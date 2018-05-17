@@ -14,5 +14,3 @@ class WeeklyNewsletter
     end
 end
 
-WeeklyNewsletter.new.perform
-

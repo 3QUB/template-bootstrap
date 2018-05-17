@@ -9,6 +9,7 @@ class UsersController < ApplicationController
     def confirm_subscription
       @user = User.find(params[:id])
       @user.update(newsletter: true)
+      WeeklyNewsletter.new.perform
     end
     
     def unsubscribe
