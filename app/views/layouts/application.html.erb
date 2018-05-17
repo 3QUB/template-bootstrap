@@ -14,7 +14,10 @@
   </head>
 
   <body>
-    <%= yield %>
-  <a href="#" class="back-to-top btn-back-to-top"></a>
+      <div class="container">
+          <%= render 'layouts/messages' %>
+        </div>
+      <a href="#" class="back-to-top btn-back-to-top"></a>
+      <%= yield %>
   </body>
 </html>
