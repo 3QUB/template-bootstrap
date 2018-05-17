@@ -24,17 +24,17 @@ Ce projet sera la version en production du projet des landing pages, et sera une
 * Service mailer & Newsletter 
 * Heroku scheduler 
 
-### 2. Les emails 
+### 2. Les emails ✅
 
-### 3. Opérations markting
+### 3. Opérations markting ✅
 
 * Bot Twitter qui envoie des tweets, avec 3 search_terms spécifiques aux cibles des 3 LPs
 
 
-* Bot Messenger avec page Facebook et message d'accueil avec un lien qui redirige vers les landing pages 
+* Bot Messenger avec page Facebook et message d'accueil avec un lien qui redirige vers la LP qui ciblent les étudiants. 
 
 
-### 4. Le Tracking 
+### 4. Le Tracking ✅
 
 Lps branchées à l'outil d'analitycs Amplitude, le script est sous forme de partial dans app/views/layouts
 Les metrics à suivre sont : 
