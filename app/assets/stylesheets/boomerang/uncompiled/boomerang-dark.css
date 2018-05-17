@@ -1861,7 +1861,8 @@ a:hover {
 .row-cols-gutter-xs > [class*="col-"] {
   padding-left: 2.5px !important;
   padding-right: 2.5px !important;
-  margin-bottom: 5px !important; }
+  margin-bottom: 5px !important;
+}
 
 .cols-space > div[class*='col-']:not(:last-child) {
   margin-bottom: 3rem; }
@@ -4172,7 +4173,8 @@ a > .block {
 .block.property .block-content .content-title {
   font-size: 1rem;
   color: #3452ff;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 .block.property .block-content .price {
   font-size: 1.25rem;
@@ -10964,10 +10966,13 @@ section.ss-slice::after {
 @media (max-width: 991px) {
   .tabs .nav-pills.nav-pills--rounded > li {
     display: block;
-    margin-bottom: 5px; } }
+    margin-bottom: 5px;
+  }
+}
 @media (min-width: 992px) {
   .tabs .nav-pills.nav-pills--rounded {
-    padding: 0 50px; }
+    padding: 0 50px;
+  }
 
   .tabs .nav-pills.nav-pills--rounded > li > a, .tabs .nav-pills.nav-pills--rounded > li > a.active {
     min-width: 200px;
@@ -12969,7 +12974,8 @@ span.flatpickr-weekday {
 
 .range-slider-wrapper .upper-info {
   font-weight: 400;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 .input-slider-value-output {
   background: #333;
@@ -16546,7 +16552,8 @@ body {
   color: #fcfcfc; }
 
 .page-title.page-title--style-1 .breadcrumb {
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 .page-title.page-title--style-2 {
   padding: 12rem 0;
