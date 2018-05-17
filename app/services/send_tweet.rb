@@ -1,7 +1,3 @@
-require 'twitter'
-require 'dotenv'
-Dotenv.load
-
 class SendTweet
 
     attr_reader :client
