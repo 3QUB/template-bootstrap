@@ -53,6 +53,6 @@ class SendTweet
     			
     		user.to_s
     		client.follow(user)
-    	
+		}
 	end		
 end
