@@ -11,10 +11,16 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.min
+//= require countdown/js/jquery.countdown.min
+//= require easy-pie-chart/jquery.easypiechart.min
+//= require fancybox/js/jquery.fancybox.min
+//= require gradientify/jquery.gradientify.min
+//= require headroom/jquery.headroom.min
+//= require milestone-counter/jquery.countTo
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require jquery.min
 //= require popper.min
 //= require js/bootstrap.min
 //= require slidebar/slidebar
@@ -23,19 +29,13 @@
 //= require isotope/isotope.min
 //= require imagesloaded/imagesloaded.pkgd.min
 //= require adaptive-backgrounds/adaptive-backgrounds
-//= require countdown/js/jquery.countdown.min
 //= require dropzone/dropzone.min
-//= require easy-pie-chart/jquery.easypiechart.min
-//= require fancybox/js/jquery.fancybox.min
 //= require flatpickr/flatpickr.min
 //= require flip/flip.min
 //= require footer-reveal/footer-reveal.min
-//= require gradientify/jquery.gradientify.min
 //= require headroom/headroom.min
-//= require headroom/jquery.headroom.min
 //= require input-mask/input-mask.min
 //= require instafeed/instafeed
-//= require milestone-counter/jquery.countTo
 //= require nouislider/js/nouislider.min
 //= require paraxify/paraxify.min
 //= require select2/js/select2.min
