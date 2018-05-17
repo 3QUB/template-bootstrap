@@ -10,7 +10,7 @@ module SuperLandingPageBoomerang
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
-    config.action_mailer.default_url_options = { host: 'http://localhost:3000' }
+    config.action_mailer.default_url_options = { host: 'https://team-atlantide-thp.herokuapp.com' }
     config.action_mailer.delivery_method = :mailjet_api
 
     # Settings in config/environments/* take precedence over those specified here.
