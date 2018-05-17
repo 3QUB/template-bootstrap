@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  boolean: 
+  unsubscribe_token: MyString
+
+two:
+  email: MyString
+  boolean: 
+  unsubscribe_token: MyString
