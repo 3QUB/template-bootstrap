@@ -16,9 +16,4 @@ class UsersController < ApplicationController
       @user.update(newsletter: false)
     end
 
-    def newsletter
-      user = User.last
-      UserMailer.weekly_email(user).deliver_now
-    end
-    
 end
